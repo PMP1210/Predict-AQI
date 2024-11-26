@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air Quality Prediction</title>
+</head>
+<body>
+    <h1>Air Quality Prediction</h1>
+    <form action="/predict" method="post">
+        <!-- List of 30 inputs for all parameters -->
+        <label for="pm25">PM2.5:</label>
+        <input type="text" id="pm25" name="pm25" required><br><br>
+
+        <label for="pm10">PM10:</label>
+        <input type="text" id="pm10" name="pm10" required><br><br>
+
+        <label for="no">NO:</label>
+        <input type="text" id="no" name="no" required><br><br>
+
+        <label for="so2">SO2:</label>
+        <input type="text" id="so2" name="so2" required><br><br>
+
+        <label for="co">CO:</label>
+        <input type="text" id="co" name="co" required><br><br>
+
+        <label for="o3">Ozone (O3):</label>
+        <input type="text" id="o3" name="o3" required><br><br>
+
+        <label for="humidity">Humidity:</label>
+        <input type="text" id="humidity" name="humidity" required><br><br>
+
+        <label for="temperature">Temperature:</label>
+        <input type="text" id="temperature" name="temperature" required><br><br>
+
+        <label for="wind_speed">Wind Speed:</label>
+        <input type="text" id="wind_speed" name="wind_speed" required><br><br>
+
+        <label for="pressure">Pressure:</label>
+        <input type="text" id="pressure" name="pressure" required><br><br>
+
+        <label for="no2">NO2:</label>
+        <input type="text" id="no2" name="no2" required><br><br>
+
+        <label for="nh3">NH3:</label>
+        <input type="text" id="nh3" name="nh3" required><br><br>
+
+        <label for="ch4">CH4:</label>
+        <input type="text" id="ch4" name="ch4" required><br><br>
+
+        <label for="benzene">C6H6 (Benzene):</label>
+        <input type="text" id="benzene" name="benzene" required><br><br>
+
+        <label for="tsp">TSP:</label>
+        <input type="text" id="tsp" name="tsp" required><br><br>
+
+        <label for="sulfate">Sulfate:</label>
+        <input type="text" id="sulfate" name="sulfate" required><br><br>
+
+        <label for="nitrate">Nitrate:</label>
+        <input type="text" id="nitrate" name="nitrate" required><br><br>
+
+        <label for="sodium">Sodium:</label>
+        <input type="text" id="sodium" name="sodium" required><br><br>
+
+        <label for="potassium">Potassium:</label>
+        <input type="text" id="potassium" name="potassium" required><br><br>
+
+        <label for="calcium">Calcium:</label>
+        <input type="text" id="calcium" name="calcium" required><br><br>
+
+        <label for="magnesium">Magnesium:</label>
+        <input type="text" id="magnesium" name="magnesium" required><br><br>
+
+        <label for="ph">pH:</label>
+        <input type="text" id="ph" name="ph" required><br><br>
+
+        <label for="acidity">Acidity:</label>
+        <input type="text" id="acidity" name="acidity" required><br><br>
+
+        <label for="chloride">Chloride:</label>
+        <input type="text" id="chloride" name="chloride" required><br><br>
+
+        <label for="sulfide">Sulfide:</label>
+        <input type="text" id="sulfide" name="sulfide" required><br><br>
+
+        <label for="carbonate">Carbonate:</label>
+        <input type="text" id="carbonate" name="carbonate" required><br><br>
+
+        <label for="nitrate_concentration">Nitrate Concentration:</label>
+        <input type="text" id="nitrate_concentration" name="nitrate_concentration" required><br><br>
+
+        <label for="ash_content">Ash Content:</label>
+        <input type="text" id="ash_content" name="ash_content" required><br><br>
+
+        <label for="density">Density:</label>
+        <input type="text" id="density" name="density" required><br><br>
+
+        <label for="organic_carbon">Organic Carbon:</label>
+        <input type="text" id="organic_carbon" name="organic_carbon" required><br><br>
+
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>
